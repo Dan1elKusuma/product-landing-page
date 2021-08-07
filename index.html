@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Product Landing Page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="page-wrapper">
+        <header id="header">
+            <nav id="nav-bar">
+                <div>
+                    <img id="header-img" src="img/icon.png" alt="Header's Logo">
+                </div>
+                <ul>
+                    <li><a class="nav-link" href="#body">Home</a></li>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <div id="main-header">
+                <img src="img/Laptop-main.png" alt="laptop">
+                <div class="main-header-text">
+                    <h1>Laptop for business</h1>
+                    <p>This laptop is perfect for you to work inside your house.</p>
+                </div>
+            </div>
+
+            <div id="features">
+                <h1>Features</h1>
+                <div class="col">
+                    <div class="images">
+                        <img src="img/McAfee.jpg" alt="McAfee">
+                    </div>
+                    <div class="images">
+                        <img src="img/radeon-vega.jpg" alt="McAfee">
+                    </div>
+                    <div class="images">
+                        <img src="img/ryzen-logo.png" alt="McAfee">
+                    </div>
+                </div>
+            </div>
+
+            <div id="main-video">
+                <iframe id="video" width="700" height="400" src="https://www.youtube.com/embed/p7Es3YqI818"
+                    title="YouTube video player" frameborder="2"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div id="pricing">
+                <div class="card">
+                    <h3>Stock</h3>
+                    <ul>
+                        <li>
+                            <p>Processor: Ryzen 3 3250u</p>
+                        </li>
+                        <li>
+                            <p>RAM: 4 GB 2400 Mhz </p>
+
+                        <li>
+                            <P>Display: 1366 X 768 px TN</P>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h3>Send your email here to buy the product</h3>
+                <input id="email" type="email" placeholder="Enter your email here" name="email" required><br>
+
+                <input id="submit" type="submit" value="submit" name="submit">
+            </form>
+        </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

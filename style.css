@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    top: 0;
+    min-height: 100px;
+    display: flex;
+    background-color: #ededed;
+    align-items: center;
+    position: sticky;
+}
+
+#header-img {
+    padding-left: 3rem;
+}
+
+
+#nav-bar {
+    top: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#nav-bar img {
+    width: 7rem;
+}
+
+#nav-bar ul {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+#nav-bar ul li {
+    padding: 0 20px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* main header */
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main-header img {
+    width: 25rem;
+}
+
+
+/* Main images */
+#features h1 {
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#features {
+    background-color: #ededed;
+}
+
+#features .col {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+#features .col img {
+    width: 15rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #features .col {
+        flex-direction: column;
+    }
+}
+
+/* main video */
+#main-video {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+/* Pricing */
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+#pricing .card {
+    border: 3px solid black;
+    padding: 2rem 4rem;
+}
+
+#pricing .card h3 {
+    text-align: center;
+}
+
+#pricing ul li {
+    list-style: none;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: #ededed;
+    text-align: center;
+}
+
+footer form #email {
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 40%;
+}
+
+footer form #submit {
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
